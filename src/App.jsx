@@ -26,6 +26,13 @@ const [color,setColor ] = useState('olive')
     >
       Green
     </button>
+        <button 
+      onClick={() => setColor('black')} 
+      className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+      style={{ backgroundColor: 'green' }}
+    >
+      Green
+    </button>
     <button 
       onClick={() => setColor('purple')} 
       className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
